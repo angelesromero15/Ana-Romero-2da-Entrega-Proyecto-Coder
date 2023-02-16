@@ -1,15 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .botonWhatsApp img{
     width: 70px;
     position: fixed;
     bottom: 10px;
     right: 10px;
 }
-/*ver el video de CARPI CODER sobre BOX-SIZING BORDER-BOX*/
-
 .Titulo{
     background-image: url(/images/kitchen-1336160_1920.jpg);
     background-attachment: fixed;
@@ -38,7 +32,6 @@ nav ul li a:hover{
     background-color: cyan;
     padding: 10px;
 }
-/* AFTER CLASS 2 */
 .introduccion{
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -52,12 +45,10 @@ nav ul li a:hover{
     height: 200px;
     width: 200px;
 }
-
 .form{
     text-align: center;
     width: 30%;
 }
-
 footer{
     
     background-color: grey;
@@ -67,7 +58,6 @@ footer{
     width: 100vw;
     
 }
-
 .icono{
     width: 40px;
 }

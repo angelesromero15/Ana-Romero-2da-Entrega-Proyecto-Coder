@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>contactos</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
@@ -15,78 +16,75 @@
   <header class="Titulo">
     <h1>Mi estilo</h1>
     <nav class="navbar navbar-expand-lg justify-content-right colorNav ">
-        <div>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="nav navbar-nav colorNav">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">
-                            inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page"
-                            href="./nosotros.html">nosotros</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="./productos.html">productos</a></li>
-                    <li class="nav-item"><strong><a class="nav-link active" aria-current="page"
-                            href="./contactos.html">contactos</a></strong></li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./sucursales.html">sucursales</a>
-                    </li>
-                </ul>
-            </div>
+      <div>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="nav navbar-nav colorNav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">
+                inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./nosotros.html">nosotros</a>
+            </li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./productos.html">productos</a>
+            </li>
+            <li class="nav-item"><strong><a class="nav-link active" aria-current="page"
+                  href="./contactos.html">contactos</a></strong></li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./sucursales.html">sucursales</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
   <main>
     <h2>Formulario de Contacto</h2>
   </main>
-
-  <form action="/signup" method="post">
+  <form class="formulario col-lg-6 col-md-9 col-sm-12  container border">
     <fieldset>
       <legend>MI ESTILO</legend>
-      <p>
+      <p class="text-center">
         <label>sexo</label><br>
         <label>
-          <input type="radio" name="sexo" value="femenino">
-          femenino
+          <input type="radio" name="sexo" value="femenino">femenino
         </label>
         <label>
-          <input type="radio" name="sexo" value="masculino">
-          masculino
+          <input type="radio" name="sexo" value="masculino">masculino
         </label>
       </p>
-      <p>
+      <p class="text-center">
         <label>Nombre</label><br>
-        <input type="text" name="nombre">
+        <input type="text" class="control" name="nombre" id="nombre" placeholder="Ingrese su nombre">
       </p>
-      <p>
+      <p class="text-center">
         <label>Apellido</label><br>
-        <input type="text" name="apellido">
+        <input type="text" class="control" name="apellido" id="apellido" placeholder="Ingrese su apellido">
       </p>
-      <p>
+      <p class="text-center">
         <label>Correo electrónico</label><br>
-        <input type="email" name="gmail" required>
+        <input type="email" class="control" name="gmail" id="gmail" placeholder="Ingrese su correo">
       </p>
-      <p>
-        <label>celular</label><br>
-        <input type="tel" name="phone">
+      <p class="text-center">
+        <label>Numero Telefónico</label><br>
+        <input type="tel" class="control" name="phone" id="phone" placeholder="Ingrese su numero de celular">
       </p>
-      <p>
+      <p class="text-center">
         <label>Contraseña</label><br>
-        <input type="password" name="password">
+        <input type="password" class="control" name="password" id="password" placeholder="Ingrese Una contraseña">
       </p>
-      <p>
-        <label>País</label><br>
-        <select>
-          <option>Argentina</option>
-          <option>Brazil</option>
-          <option>Chile</option>
-          <option>Cuba</option>
-          <option>Paraguay</option>
-        </select>
+      <p class="text-center">
+        <label class=" ">País</label><br>
+      <select >
+        <option>Argentina</option>
+        <option>Brazil</option>
+        <option>Chile</option>
+        <option>Cuba</option>
+        <option>Paraguay</option>
+      </select>
+      </p>
+      
       </p>
       <p>
         <label>
@@ -104,17 +102,22 @@
   <footer class="text-center">
     <h3>Sitio creado por Angeles Romero</h3>
     <ul>
-        <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/whatsapp.png" alt="Link a WhatsApp"></a></li>
-        <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/instagram.png" alt="Link a  instagram"></a></li>
-        <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/gorjeo.png" alt="Link a Twittwr"></a></li>
+      <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/whatsapp.png"
+            alt="Link a WhatsApp"></a></li>
+      <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/instagram.png"
+            alt="Link a  instagram"></a></li>
+      <li class="links"><a class="foot" href=""><img class="icono" src="../iconos/gorjeo.png" alt="Link a Twittwr"></a>
+      </li>
     </ul>
-</footer>
+  </footer>
   <div class="botonWhatsApp">
     <a href="https://api.whatsapp.com/send?phone=+542236690000" target="_blank">
       <img src="../iconos/whatsapp.png" alt="Link a WhatsApp"></a>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
