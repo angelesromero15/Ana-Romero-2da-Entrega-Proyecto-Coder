@@ -1,0 +1,36 @@
+.botonWhatsApp img{
+    width: 70px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.titulo{
+    background-image: url(../images/kitchen-1336160_1920.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.colorNav{
+    color:$color1;
+}
+.lista{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    border-radius: 20px;
+    background-color: $colorNav;
+    padding: 10px;
+    
+}

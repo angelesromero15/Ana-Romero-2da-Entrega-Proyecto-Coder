@@ -1,0 +1,17 @@
+@media(max-width: 768px){
+    .formulario{
+        width: 50%;
+    }
+    .contenedor{
+        display:flex;
+        flex-direction: column;
+    }
+    .contenedorTexto{
+        width: 100%;
+        padding: 10px;
+    }
+    .contenedorImagen{
+        width: 100%;
+        padding: 20px;
+    }
+    }
